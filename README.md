@@ -40,4 +40,4 @@ spaces-'%20'-in the URL, instead placing a hyphen.
 
 Let me this it a try.
 
-[A new file](http://mybinder.org/v2/gh/zhentaoshi/Econ5121A/tree/master/Msc/) 
+[A new file](http://mybinder.org/v2/gh/zhentaoshi/Econ5121A/master?urlpath=Msc/) 
