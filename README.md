@@ -1,45 +1,14 @@
-# Specifying an R environment with a runtime.txt file
+# Econ 5121 BC (2019 Fall)
 
-Jupyter+R: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/r/master?filepath=index.ipynb)
 
-[Jupyter+R](http://mybinder.org/v2/gh/zhentaoshi/MSc-notes/master?filepath=time_series.ipynb)
 
-RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/r/master?urlpath=rstudio)
+Both interactive versions (IPython notebook) and static versions (static PDF, with R code but no output) are provided.
 
-RShiny: [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/binder-examples/r/master?urlpath=shiny/bus-dashboard/)
 
-Binder supports using R and RStudio, with libraries pinned to a specific 
-snapshot on [MRAN](https://mran.microsoft.com/documents/rro/reproducibility).
 
-You need to have a `runtime.txt` file that is formatted like:
+* [Nov 6 Lecture Notes (interactive)](http://mybinder.org/v2/gh/zhentaoshi/MSc-notes/master?filepath=time_series.ipynb)
 
-```
-r-<YYYY>-<MM>-<DD>
-```
+* [Nov 6 Lecture Notes (static PDF)](https://github.com/zhentaoshi/MSc-notes/blob/master/time_series.pdf)
 
-where YYYY-MM-DD is a snapshot at MRAN that will be used for installing 
-libraries. In this line, you can request a [specific 
-version of R](https://github.com/jupyter/repo2docker/pull/772#issue-313426641). To do this list the version between the 'r' 
-and the year, as in `r-3.6-2019-09-24`. Right now the default version of R is 3.6.
+The IPython notebooks, with the R kernel, must be placed under this repository. It cannot point to another repo.
 
-You also need a Python notebook file such as [this one](https://github.com/binder-examples/r/blob/master/index.ipynb).
-
-You can also have an `install.R` file that will be executed during build,
-and can be used to install libraries.
-
-Both [RStudio](https://www.rstudio.com/) and [IRKernel](https://irkernel.github.io/)
-are installed by default, so you can use either the Jupyter notebook interface or
-the RStudio interface.
-
-This repository also contains an example of a Shiny app.
-
-Last, note that if your Binder URL points to a folder, as in 
-
-http://mybinder.org/v2/gh/binder-examples/r/master?urlpath=shiny/bus-dashboard/,
-
-you will need (1) to put in the final slash in the URL, and (2) to avoid converted 
-spaces-'%20'-in the URL, instead placing a hyphen.
-
-Let me this it a try.
-
-[A new file](http://mybinder.org/v2/gh/zhentaoshi/Econ5121A/master?urlpath=Msc/) 
