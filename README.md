@@ -10,5 +10,5 @@ Both interactive versions (IPython notebook) and static versions (static PDF, wi
 
 * [Nov 6 Lecture Notes (static PDF)](https://github.com/zhentaoshi/MSc-notes/blob/master/time_series.pdf)
 
-The IPython notebooks, with the R kernel, must be placed under this repository. It cannot point to another repo.
+
 
