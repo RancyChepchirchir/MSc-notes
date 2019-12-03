@@ -1,0 +1,170 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\renewcommand\theenumi{(\alph{enumi})}
+\renewcommand\labelenumi{\theenumi}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format dvi
+\output_sync 1
+\output_sync_macro "\synctex=-1"
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\branch abc
+\selected 1
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\branch pf of gamma = 0
+\selected 0
+\filename_suffix 0
+\color #faf0e6
+\end_branch
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Side Notes of Video Lecture
+\end_layout
+
+\begin_layout Subsection*
+The variance of MA(q)
+\end_layout
+
+\begin_layout Standard
+For an MA(q) process 
+\begin_inset Formula 
+\[
+y_{t}=e_{t}+\beta_{1}e_{t-1}+\beta_{2}e_{t-2}+\cdots+\beta_{q}e_{t-q},
+\]
+
+\end_inset
+
+the variance 
+\begin_inset Formula $\mathrm{var}\left(y_{t}\right)=\sum_{l=1}^{q}\left(\beta_{l}^{2}+1\right)\sigma_{e}^{2}$
+\end_inset
+
+, where 
+\begin_inset Quotes eld
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ comes from the fact that the coefficient of 
+\begin_inset Formula $e_{t}$
+\end_inset
+
+ is normalized as 
+\begin_inset Formula $1$
+\end_inset
+
+.
+ In the video the index is not aligned correctly.
+\end_layout
+
+\begin_layout Subsection*
+Estimation of MA Model
+\end_layout
+
+\begin_layout Standard
+The principle of estimating MA is maximum likelihood.
+ What is presented in the video is a unconditional MLE with a hand-waving
+ treatment of the initial value.
+ There are alternative formulation of estimation, for example the conditional
+ MLE.
+ Details can be found in Sheppard's lecture notes.
+ A rigorous development of the estimation method would involve too much
+ calculation and is beyond the scope of the course.
+ However, in reality the estimation is always handled by software automatically.
+\end_layout
+
+\end_body
+\end_document
