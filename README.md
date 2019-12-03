@@ -17,7 +17,7 @@ Both interactive versions (IPython notebook, executable on Binder) and static ve
 * Dec 1 (video) Lecture Notes [(interactive)](http://mybinder.org/v2/gh/zhentaoshi/MSc-notes/master?filepath=time_series_2.ipynb) [(static IPNB)]( https://github.com/zhentaoshi/MSc-notes/blob/master/time_series_2.ipynb ) [(static PDF)](https://github.com/zhentaoshi/MSc-notes/blob/master/time_series_2.pdf)
   * The video lecture is equivalent to two face-to-face lectures
   * The video is uploaded to Blackboard, and it is accompanied by a [sidenote](https://github.com/zhentaoshi/MSc-notes/blob/master/sidenotes.pdf) to correct some points.
-  * Reading: Sheppard Ch 4.1, 4.3, 4.7, 4.9; Ch 5.1, 5.3, 5.4, 5.7.1-3, 5.8
+  * Reading: Sheppard Ch 4.1, 4.3, 4.7, 4.9, 4.12.3; Ch 5.1, 5.3, 5.4, 5.7.1-3, 5.8
 
 ### IPython Notebook 
 
